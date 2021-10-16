@@ -10,7 +10,12 @@ val = firstName + '' + lastName
 val = "Barbara"
 val += "Mootian"
 // Escaping
-
+val =  "That great you are going to understand Js eithin one self tought week"
 //Length
+val = firstName.length
 //concat
+val = firstName.concat('',lastName)
 console.log(val)
+//change case
+val = firstName.toUpperCase()
+val = lastName.toLowerCase()
