@@ -15,7 +15,28 @@ arr1.unshift(300)
 //remove the end
 arr1.pop()
 //at position 1 , remove one item and insert "one" "two"
-arr1.splice(1, 2, "one", "two")
-console.log(arr1)
+arr1.splice(1, 2,)
 // reverse 
 arr1.reverse
+
+// concat array
+val =arr1.concat(arr2)
+//sort
+val  = users.sort ().reverse ()
+val  = arr1.sort()
+//sort with compare function 
+val = arr1.sort(function(a, b){
+    return a-b
+})
+// reverse sort with compare function 
+val = arr1.sort(function(a, b){
+    return b-a
+})
+// find
+function gt10(num){
+    return num > 10
+}
+val = arr1.find(gt10)
+//find and filter
+val = arr1.filter(gt10)
+console.log(val)
