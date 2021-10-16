@@ -42,10 +42,32 @@
 // console.log(val)
 
 //if statement
-const mark ='5'
-// Abstract equallity comparision
-if (mark == 5){
-    console.log('The mark is 5')
+let mark
+// // Abstract equallity comparision
+// if (mark == 5){
+//     console.log('The mark is 5')
+// }else{
+//     console.log('the mark is not 5')
+// }
+
+// strickly equality comparision
+// if (mark === 5){
+//     console.log('The mark is 5')
+// }else{
+//     console.log('The mark is not 5')
+// }
+//check undefine
+// if (typeof mark !== 'underfined'){
+//     console.log('The mark is ${mark}')
+// }else{
+//     console.log ('The mark is underfine')
+// }
+//else if 
+let hour = 8
+if (hour <12){
+    console.log ('Good morning')
+}else if(hour <20){
+    console.log ('How are you doing')
 }else{
-    console.log('the mark is not 5')
+    console.log('Good Evening')
 }
