@@ -108,7 +108,7 @@
 // window.addEventListener("load", function() {dothis(' use the available resources well')}, true)  
 
 //appendchild
-document.body.appendChild(document.getElementById("myheader"))//moves "myheaderto the end of the page
+document.body.appendChild(document.getElementById("myheader"))//moves "myheader" to the end of the page
  
 //styling the form using getElementById
 window.onload = function () {
@@ -116,3 +116,7 @@ window.onload = function () {
     document.getElementById("email").style.backgroundColor = "#102F4D";
     document.getElementById("legend").style.backgroundColor ="#185A95";
 }
+//queryselecter
+let form
+form = document.querySelector('form').style.backgroundColor = blue
+console.log(form)
