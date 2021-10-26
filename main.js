@@ -42,7 +42,7 @@
 // console.log(val)
 
 //if statement
-let mark
+// let mark
 // // Abstract equallity comparision
 // if (mark == 5){
 //     console.log('The mark is 5')
@@ -63,11 +63,56 @@ let mark
 //     console.log ('The mark is underfine')
 // }
 //else if 
-let hour = 8
-if (hour <12){
-    console.log ('Good morning')
-}else if(hour <20){
-    console.log ('How are you doing')
-}else{
-    console.log('Good Evening')
+// let hour = 8
+// if (hour <12){
+//     console.log ('Good morning')
+// }else if(hour <20){
+//     console.log ('How are you doing')
+// }else{
+//     console.log('Good Evening')
+// }
+// switch case
+// const fruits = "apple"
+// switch(fruits){
+//     case "apple":
+//         console.log('red')
+//         break;
+//      case "orange":
+//         console.log('orange')
+//         break;  
+//         default:
+//         console.log ('I dont\'t know')
+//         break
+// }
+//IIFE(Immediately Invoked Function Expression)
+
+// (function (){
+//     var num = 3;
+//     console.log(num);
+// })()
+// for loop
+// for (let i = 0; i < 10; i++){
+//     console.log (i);
+// }
+// let doc 
+// doc = document
+// doc = document.head
+// doc = document.domain
+// console.log(doc)
+ 
+//window object methods
+// function dothis(what) {
+//     alert("mom says to do" + what)  
+// }
+// if(window.addEventListener)
+// window.addEventListener("load", function() {dothis(' use the available resources well')}, true)  
+
+//appendchild
+document.body.appendChild(document.getElementById("myheader"))//moves "myheaderto the end of the page
+ 
+//styling the form using getElementById
+window.onload = function () {
+    document.getElementById("name").style.backgroundColor = "#102F4D";
+    document.getElementById("email").style.backgroundColor = "#102F4D";
+    document.getElementById("legend").style.backgroundColor ="#185A95";
 }
