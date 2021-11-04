@@ -70,25 +70,6 @@ form{
       width: 10%;float: left;
   } 
 }
-@media screen and (max-width: 480px){
-    .container{
-        float: none;
-        display: block;
-    } 
-    .img{
-        float: none;
-        flex-direction: inherit;
-        width: 10px;
-        height: 10px'
-    }
-    #form{
-        float: none;
-        display: block;
-    }
-}
-@media screen and (max-width: 480px) {
-    #me{
-        float: none;
-        display: block;
-    }
+.link{
+margin-top: 450px;
 }
